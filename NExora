@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07111f">
+<meta name="description" content="NEXORA explores artificial intelligence, quantum computing, and emerging technologies.">
+<title>NEXORA — Intelligence for What Comes Next</title>
+<style>
+:root{--bg:#07111f;--panel:#101e32;--text:#f4f7ff;--muted:#a9b8cf;--cyan:#68e4ff;--purple:#a59aff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 80% 0%,#282052 0,transparent 40%),var(--bg);color:var(--text);font:16px/1.7 system-ui,Arial,sans-serif}
+.wrap{width:min(1100px,90%);margin:auto}
+header{padding:22px 0;border-bottom:1px solid #ffffff1c}
+nav{display:flex;justify-content:space-between;align-items:center;gap:20px}
+.logo{font-size:23px;font-weight:900;letter-spacing:5px}
+nav a,.links a{color:var(--muted);text-decoration:none;margin-left:18px}
+.hero{padding:100px 0 85px;max-width:900px}
+.tag{color:var(--cyan);letter-spacing:3px;text-transform:uppercase;font-size:12px;font-weight:bold}
+h1{font-size:clamp(42px,8vw,78px);line-height:1.08;letter-spacing:-3px;margin:22px 0}
+.gradient{background:linear-gradient(90deg,var(--cyan),var(--purple));color:transparent;background-clip:text}
+p{color:var(--muted)}
+.lead{font-size:19px;max-width:680px}
+.btn{display:inline-block;margin:15px 10px 0 0;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:bold;border:1px solid #ffffff30;color:var(--text)}
+.primary{background:linear-gradient(100deg,var(--cyan),var(--purple));color:#07111f;border:0}
+section{padding:55px 0}
+h2{font-size:clamp(29px,5vw,44px);line-height:1.2}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--panel);border:1px solid #ffffff18;border-radius:18px;padding:25px}
+.card .symbol{font-size:30px;color:var(--cyan)}
+.card h3{font-size:20px;margin-bottom:5px}
+.banner{padding:30px;border:1px solid #ffffff25;border-radius:18px;background:linear-gradient(110deg,#68e4ff13,#a59aff16)}
+footer{border-top:1px solid #ffffff20;padding:28px 0;margin-top:40px;font-size:13px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.hero{padding:65px 0}nav a{margin-left:8px;font-size:13px}.logo{font-size:19px;letter-spacing:3px}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<nav>
+<div class="logo">NEXORA</div>
+<div class="links">
+<a href="#vision">Vision</a>
+<a href="#focus">Focus</a>
+<a href="#approach">Approach</a>
+</div>
+</nav>
+</div>
+</header>
+
+<main>
+<div class="wrap hero">
+<div class="tag">Technology · Research · Tomorrow</div>
+<h1>Intelligence for<br><span class="gradient">What Comes Next.</span></h1>
+<p class="lead">Exploring the frontier of artificial intelligence, quantum computing, and emerging technologies to help shape a smarter future.</p>
+<a class="btn primary" href="#vision">Explore NEXORA ↗</a>
+<a class="btn" href="#focus">Our Focus Areas</a>
+</div>
+
+<section id="vision">
+<div class="wrap">
+<div class="tag">Our Vision</div>
+<h2>Turning ambitious ideas into meaningful progress.</h2>
+<p>Tomorrow's breakthroughs will emerge where bold research meets practical engineering. NEXORA aims to identify, evaluate, and support promising technology initiatives with a long-term perspective.</p>
+<div class="banner">
+<h3>Built for the long term.</h3>
+<p>Research-led thinking. Transparent communication. Responsible development.</p>
+</div>
+</div>
+</section>
+
+<section id="focus">
+<div class="wrap">
+<div class="tag">Focus Areas</div>
+<h2>Three horizons of opportunity.</h2>
+<div class="grid">
+<article class="card">
+<div class="symbol">✳</div>
+<h3>Artificial Intelligence</h3>
+<p>Applied AI, intelligent automation, and research tools designed to solve complex problems.</p>
+</article>
+<article class="card">
+<div class="symbol">⌘</div>
+<h3>Quantum Computing</h3>
+<p>Quantum technologies, enabling software, and potential applications as the field evolves.</p>
+</article>
+<article class="card">
+<div class="symbol">◈</div>
+<h3>Emerging Technologies</h3>
+<p>Future-facing projects assessed for technical feasibility, relevance, and potential impact.</p>
+</article>
+</div>
+</div>
+</section>
+
+<section id="approach">
+<div class="wrap">
+<div class="tag">Our Approach</div>
+<h2>Clarity before claims.</h2>
+<div class="grid">
+<article class="card"><h3>01 — Research</h3><p>Define the problem and evaluate the available evidence.</p></article>
+<article class="card"><h3>02 — Evaluate</h3><p>Assess feasibility, risks, resources, and measurable milestones.</p></article>
+<article class="card"><h3>03 — Report</h3><p>Communicate progress and limitations transparently.</p></article>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<strong>NEXORA</strong> · © 2026
+<p>Informational website. No investment returns are promised. Nothing on this website constitutes financial advice or an offer to buy or sell financial instruments.</p>
+</div>
+</footer>
+</body>
+</html>
